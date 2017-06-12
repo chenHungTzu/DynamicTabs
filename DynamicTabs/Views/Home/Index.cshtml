@@ -1,0 +1,54 @@
+﻿@{
+    ViewBag.Title = "Home Page";
+}
+<link href="~/Content/PTCTabs.css" rel="stylesheet" />
+
+<div class="container row padding">
+
+    <!--RWD condition ctrl-->
+    <div type="button" class="visible-xs visible-sm hidden-md hidden-lg  btn btn-default ptc-dismiss">隱藏篩選條件</div>
+    <!--end RWD condition ctrl -->
+
+    <!--dynamic tabs-->
+    <div class="row ptc-conditions">
+        <!--clone block-->
+        <div clsss="ptc-content-clone" hidden>
+            <button type="button" class="ptc-cancel" data-toggle="tooltip btn btn-secondary" data-placement="bottom" title="移除分頁">x</button>
+
+            <!--write something in here....-->
+            <div class="container-fluid">
+               
+                <div>I am cloned page....</div>
+            </div>
+
+        </div>
+        <!--end clone block-->
+
+        <!--tabs block-->
+        <ul class="ptc-tabs nav nav-tabs"></ul>
+        <!--end tabs block-->
+
+        <!--content block-->
+        <div class="ptc-content tab-content"></div>
+        <!--end content block-->
+
+
+    </div>
+    <!--end dynamic tabs-->
+</div>
+
+<script src="~/Scripts/jquery-1.10.2.min.js"></script>
+<script src="~/Scripts/PTCTabview.js"></script>
+
+<script type="text/javascript">
+
+    $('.ptc-tabs').PTCDynamicTabs(function (index) {
+
+        //Do something when  clicked tab.....
+        
+
+    });
+
+  
+
+</script>

@@ -1,0 +1,23 @@
+﻿.ptc-add-tag {
+    background-color: #00AA88 !important;
+    color: white !important;
+    cursor: pointer;
+}
+
+.ptc-cancel {
+    font-weight: bolder;
+    right: 0.5vw;
+    top: 0vh;
+    background: none;
+    border: none;
+    cursor: pointer;
+    float: right;
+}
+
+.ptc-dismiss, .ptc-dismiss:hover {
+    color: #00AA88 !important;
+    background-color: white !important;
+    border-width: 2px;
+    border-color: #00AA88 !important;
+}
+
