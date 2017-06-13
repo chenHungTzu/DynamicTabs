@@ -17,7 +17,7 @@ API:
 > 
 > 動作 | 回傳格式  | 說明
 > ------------ | ------------- | ------------ 
-> PTCDynamicTabs() |  function(int) | 回傳目前為第幾個tab 
+> PTCDynamicTabs() |  function(`int`) | 回傳目前為第幾個tab 
 
 使用範例:
 
